@@ -22,14 +22,13 @@ export default function Contact() {
     e.preventDefault()
     setStatus('submitting')
 
-    // Encode form data the way Netlify expects it
     const encode = (data) =>
       Object.keys(data)
         .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
         .join('&')
 
     try {
-      await fetch('/', {
+      const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
@@ -37,9 +36,13 @@ export default function Contact() {
           ...formData,
         }),
       })
+
+      if (!response.ok) throw new Error(`Server responded with ${response.status}`)
+
       setStatus('success')
       setFormData({ name: '', email: '', company: '', message: '' })
-    } catch {
+    } catch (err) {
+      console.error('Form submission error:', err)
       setStatus('error')
     }
   }
