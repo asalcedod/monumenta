@@ -11,7 +11,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2024',
     activity: 'Historic sculpture restoration.',
-    img: "/src/assets/test.jpg",
+    img: "/src/assets/works/grid4.avif",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     location: 'Pasadena, CA',
     year: '2024',
     activity: 'Recreation of ornamental architectural details.',
-    img: "/src/assets/test.jpg",
+    img: "/src/assets/works/grid5.jpeg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     location: 'San Diego, CA',
     year: '2023',
     activity: 'Custom decorative components restoration.',
-    img: "../assets/test.jpg",
+    img: "/src/assets/works/grid6.jpg",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const projects = [
     location: 'Sacramento, CA',
     year: '2024',
     activity: 'Reconstruction of damaged sculptural elements.',
-    img: null,
+    img: "/src/assets/works/grid8.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2023',
     activity: 'Restored decorative pieces based on archival references.',
-    img: null,
+    img: "/src/assets/works/grid10.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const projects = [
     location: 'Santa Barbara, CA',
     year: '2024',
     activity: 'Lightweight architectural components for restoration.',
-    img: null,
+    img: "/src/assets/works/grid12.jpg",
   },
   {
     id: 7,
@@ -59,7 +59,7 @@ const projects = [
     location: 'Long Beach, CA',
     year: '2024',
     activity: 'Preservation and replacement of corroded fixtures.',
-    img: null,
+    img: "/src/assets/works/grid13.jpg",
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ const projects = [
     location: 'Anaheim, CA',
     year: '2024',
     activity: 'Architectural sculpture designed for long-term durability.',
-    img: null,
+    img: "/src/assets/works/grid17.jpg",
   },
 ]
 
@@ -95,13 +95,9 @@ function PageHeader() {
           <br />and recreation projects.
         </h1>
       </div>
-
       {/* Hero image — replace div with <img src="..." alt="..." className={styles.headerImg} /> */}
-      <div className={styles.headerImgWrap} aria-hidden="true">
-        <div className={styles.headerImgPlaceholder}>
-          <span>Hero image</span>
-          <small>Portrait orientation recommended</small>
-        </div>
+      <div className={styles.headerImgWrap}>
+        <img src="/src/assets/works/grid14.jpg" alt="Work header" className={styles.headerImg} />
       </div>
     </section>
   )
