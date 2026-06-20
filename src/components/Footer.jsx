@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div className={styles.col}>
             <p className={styles.colTitle}>Contact</p>
-            <a href="mailto:hello@monumenta.co">hello@monumenta.co</a>
+            <a href="mailto:contact@monumentaworks.com">contact@monumentaworks.como</a>
             <a href="tel:+13105550199">+1 (310) 555-0199</a>
             <span>Los Angeles, CA</span>
           </div>
