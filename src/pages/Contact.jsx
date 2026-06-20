@@ -28,7 +28,7 @@ export default function Contact() {
         .join('&')
 
     try {
-      const response = await fetch('https://dapper-bombolone-6d1f93.netlify.app//', {
+      const response = await fetch('https://monumentaworks.netlify.app//', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
