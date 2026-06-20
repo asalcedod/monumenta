@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './Work.module.css'
+import imgHeader from '../assets/works/grid14.jpg'
 
 // ─── Project data ─────────────────────────────────────────────────────────────
 // Replace `img` with the real path once you have images, e.g. '/images/work/st-james.jpg'
@@ -11,7 +12,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2024',
     activity: 'Historic sculpture restoration.',
-    img: "/src/assets/works/grid4.avif",
+    img: "/public/works/grid4.avif",
   },
   {
     id: 2,
@@ -19,7 +20,7 @@ const projects = [
     location: 'Pasadena, CA',
     year: '2024',
     activity: 'Recreation of ornamental architectural details.',
-    img: "/src/assets/works/grid5.jpeg",
+    img: "/public/works/grid5.jpeg",
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const projects = [
     location: 'San Diego, CA',
     year: '2023',
     activity: 'Custom decorative components restoration.',
-    img: "/src/assets/works/grid6.jpg",
+    img: "/public/works/grid6.jpg",
   },
   {
     id: 4,
@@ -35,7 +36,7 @@ const projects = [
     location: 'Sacramento, CA',
     year: '2024',
     activity: 'Reconstruction of damaged sculptural elements.',
-    img: "/src/assets/works/grid8.jpg",
+    img: "/public/works/grid8.jpg",
   },
   {
     id: 5,
@@ -43,7 +44,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2023',
     activity: 'Restored decorative pieces based on archival references.',
-    img: "/src/assets/works/grid10.jpg",
+    img: "/public/works/grid10.jpg",
   },
   {
     id: 6,
@@ -51,7 +52,7 @@ const projects = [
     location: 'Santa Barbara, CA',
     year: '2024',
     activity: 'Lightweight architectural components for restoration.',
-    img: "/src/assets/works/grid12.jpg",
+    img: "/public/works/grid12.jpg",
   },
   {
     id: 7,
@@ -59,7 +60,7 @@ const projects = [
     location: 'Long Beach, CA',
     year: '2024',
     activity: 'Preservation and replacement of corroded fixtures.',
-    img: "/src/assets/works/grid13.jpg",
+    img: "/public/works/grid13.jpg",
   },
   {
     id: 8,
@@ -67,7 +68,7 @@ const projects = [
     location: 'Anaheim, CA',
     year: '2024',
     activity: 'Architectural sculpture designed for long-term durability.',
-    img: "/src/assets/works/grid17.jpg",
+    img: "/public/works/grid17.jpg",
   },
 ]
 
@@ -97,7 +98,7 @@ function PageHeader() {
       </div>
       {/* Hero image — replace div with <img src="..." alt="..." className={styles.headerImg} /> */}
       <div className={styles.headerImgWrap}>
-        <img src="/src/assets/works/grid14.jpg" alt="Work header" className={styles.headerImg} />
+        <img src={imgHeader} alt="Work header" className={styles.headerImg} />
       </div>
     </section>
   )
