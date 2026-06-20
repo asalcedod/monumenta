@@ -12,7 +12,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2024',
     activity: 'Historic sculpture restoration.',
-    img: "/public/works/grid4.avif",
+    img: "/works/grid4.avif",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     location: 'Pasadena, CA',
     year: '2024',
     activity: 'Recreation of ornamental architectural details.',
-    img: "/public/works/grid5.jpeg",
+    img: "/works/grid5.jpeg",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     location: 'San Diego, CA',
     year: '2023',
     activity: 'Custom decorative components restoration.',
-    img: "/public/works/grid6.jpg",
+    img: "/works/grid6.jpg",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const projects = [
     location: 'Sacramento, CA',
     year: '2024',
     activity: 'Reconstruction of damaged sculptural elements.',
-    img: "/public/works/grid8.jpg",
+    img: "/works/grid8.jpg",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const projects = [
     location: 'Los Angeles, CA',
     year: '2023',
     activity: 'Restored decorative pieces based on archival references.',
-    img: "/public/works/grid10.jpg",
+    img: "/works/grid10.jpg",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const projects = [
     location: 'Santa Barbara, CA',
     year: '2024',
     activity: 'Lightweight architectural components for restoration.',
-    img: "/public/works/grid12.jpg",
+    img: "/works/grid12.jpg",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const projects = [
     location: 'Long Beach, CA',
     year: '2024',
     activity: 'Preservation and replacement of corroded fixtures.',
-    img: "/public/works/grid13.jpg",
+    img: "/works/grid13.jpg",
   },
   {
     id: 8,
@@ -68,7 +68,7 @@ const projects = [
     location: 'Anaheim, CA',
     year: '2024',
     activity: 'Architectural sculpture designed for long-term durability.',
-    img: "/public/works/grid17.jpg",
+    img: "/works/grid17.jpg",
   },
 ]
 
